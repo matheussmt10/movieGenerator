@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 85vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonNavBar {
+    width: 80px;
+    height: 80px;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.buttonNavBar p{
+    font-size: 10pt;
+    margin: 8px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #737373;
+}
+
+
+
+
+
+.active{
+    border-radius: 10px;
+    background: rgba(35, 35, 35, 0.1);
+    transform: none !important;
+    
+}
+
+.buttonNavBar:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* .activeIcon {
+    color: #1F50FF !important;
+} */
+
+.fas .fa-home{
+    color: #FFF;
+}
+
+.icons {
+    height: 23px;
+    color: #737373;
+}
+
+
+/* animation */
